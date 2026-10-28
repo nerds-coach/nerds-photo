@@ -1,5 +1,6 @@
 {
   "app": "photocraft",
   "upstream": "storytold/photocraft",
-  "name": "NERDS Photo"
+  "name": "NERDS Photo",
+  "upstream_name": "PhotoCraft"
 }
