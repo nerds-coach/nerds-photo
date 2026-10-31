@@ -1,0 +1,104 @@
+NERDS Photo 0.18.0 for Windows x64 (x86_64-pc-windows-msvc)
+==> cargo build (x86_64-pc-windows-msvc)
+[1m[92m    Updating[0m crates.io index
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[93mwarning[0m: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[96mhelp[0m: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+[1m[92m   Compiling[0m windows-sys v0.61.2
+[1m[92m   Compiling[0m tokio v1.54.1
+[1m[92m   Compiling[0m photocraft-cms v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\cms)
+[1m[92m   Compiling[0m photocraft-geom v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\geom)
+[1m[92m   Compiling[0m tokio-util v0.7.19
+[1m[92m   Compiling[0m h2 v0.4.20
+[1m[92m   Compiling[0m photocraft-color v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\color)
+[1m[92m   Compiling[0m photocraft-raster v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\raster)
+[1m[92m   Compiling[0m tower v0.5.3
+[1m[92m   Compiling[0m hyper v1.12.0
+[1m[92m   Compiling[0m tokio-rustls v0.26.6
+[1m[92m   Compiling[0m tower-http v0.6.11
+[1m[92m   Compiling[0m photocraft-doc v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\doc)
+[1m[92m   Compiling[0m windows-sys v0.59.0
+[1m[92m   Compiling[0m hyper-util v0.1.21
+[1m[92m   Compiling[0m hyper-rustls v0.27.10
+[1m[92m   Compiling[0m reqwest v0.13.5
+[1m[92m   Compiling[0m photocraft-heif v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\heif)
+[1m[92m   Compiling[0m zune-jpegxl v0.5.2
+[1m[92m   Compiling[0m photocraft-text v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\text)
+[1m[92m   Compiling[0m sigstore-tsa v0.6.6
+[1m[92m   Compiling[0m sigstore-rekor v0.6.6
+[1m[92m   Compiling[0m photocraft-vector v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\vector)
+[1m[92m   Compiling[0m tempfile v3.27.0
+[1m[92m   Compiling[0m sigstore-bundle v0.6.6
+[1m[92m   Compiling[0m photocraft-compose v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\compose)
+[1m[92m   Compiling[0m sigstore-verify v0.6.6
+[1m[92m   Compiling[0m winprint v0.2.1 (https://github.com/storytold/winprint.rs?rev=5f80b9baf6b58937c401656634e42d33f00ddf49#5f80b9ba)
+[1m[92m   Compiling[0m photocraft-codecs v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\codecs)
+[1m[92m   Compiling[0m photocraft-algo v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\algo)
+[1m[92m   Compiling[0m photocraft-psd v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\psd)
+[1m[92m   Compiling[0m anstyle-wincon v3.0.11
+[1m[92m   Compiling[0m photocraft-format v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\format)
+[1m[92m   Compiling[0m photocraft-raw v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\raw)
+[1m[92m   Compiling[0m photocraft-affinity v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\affinity)
+[1m[92m   Compiling[0m photocraft-paint v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\paint)
+[1m[92m   Compiling[0m anstyle-query v1.1.5
+[1m[92m   Compiling[0m socket2 v0.6.5
+[1m[92m   Compiling[0m mio v1.2.3
+[1m[92m   Compiling[0m winapi-util v0.1.11
+[1m[92m   Compiling[0m craft-winprint-gdi v0.1.0 (https://github.com/storytold/winprint.rs?rev=417ac3c4d14d3da5485a99c7d5ce8f05664ec312#417ac3c4)
+[1m[92m   Compiling[0m anstream v1.0.0
+[1m[92m   Compiling[0m winit v0.30.13 (https://github.com/storytold/winit.git?rev=a517b3846ee8457d84ee4975110bfda6797c44dc#a517b384)
+[1m[92m   Compiling[0m photocraft-io v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\io)
+[1m[92m   Compiling[0m craft-print v0.1.0 (https://github.com/storytold/craft-libs?rev=92d392cff132eaf53e13afff77f38b5c11b73aa0#92d392cf)
+[1m[92m   Compiling[0m same-file v1.0.6
+[1m[92m   Compiling[0m fs-set-times v0.20.3
+[1m[92m   Compiling[0m io-extras v0.19.0
+[1m[92m   Compiling[0m photocraft-plugins v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\plugins)
+[1m[92m   Compiling[0m winx v0.36.4
+[1m[92m   Compiling[0m photocraft-ops v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\ops)
+[1m[92m   Compiling[0m cap-primitives v4.0.3
+[1m[92m   Compiling[0m clap_builder v4.6.7
+[1m[92m   Compiling[0m photocraft-engine v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\engine)
+[1m[92m   Compiling[0m rmcp v3.6.0
+[1m[92m   Compiling[0m clap v4.6.7
+[1m[92m   Compiling[0m accesskit_winit v0.34.1
+[1m[92m   Compiling[0m arboard v3.7.0
+[1m[92m   Compiling[0m cap-std v4.0.3
+[1m[92m   Compiling[0m rustls-platform-verifier v0.7.1
+[1m[92m   Compiling[0m zip v9.1.0
+[1m[92m   Compiling[0m ureq v3.5.0
+[1m[92m   Compiling[0m photocraft-ui-egui v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\ui-egui)
+[1m[92m   Compiling[0m egui-wgpu v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m egui-winit v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m photocraft-cli v0.18.0 (D:\a\nerds-photo\nerds-photo\apps\photocraft-cli)
+[1m[92m   Compiling[0m winreg v0.55.0
+[1m[92m   Compiling[0m verifysign v1.0.1
+[1m[92m   Compiling[0m eframe v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m craft-update v0.1.0 (https://github.com/storytold/craft-libs?rev=04aa1703b32d299e54f78fcde4182f2b393a9116#04aa1703)
+[1m[92m   Compiling[0m photocraft-automation v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\automation)
+[1m[92m   Compiling[0m photocraft-gpu v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\gpu)
+[1m[92m   Compiling[0m photocraft v0.18.0 (D:\a\nerds-photo\nerds-photo\apps\photocraft)
+[1m[92m   Compiling[0m rfd v0.17.2
+[1m[92m   Compiling[0m photocraft-tablet v0.18.0 (D:\a\nerds-photo\nerds-photo\crates\tablet)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 20m 12s
+ok photocraft.exe: x64, PE subsystem 2
+ok photocraft-cli.exe: x64, PE subsystem 3
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-photo\nerds-photo\target\windows-package\x64\photocraft.exe, D:\a\nerds-photo\nerds-photo\target\windows-package\x64\photocraft-cli.exe
+Windows shortcut icon references ok
+==> wix build
+==> MSI shortcut icon validation (ICE50)
+PASS PhotoCraft: 24 scope cases, folder preservation, action sequencing and registry contract. No installation performed.
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-photo\nerds-photo\dist\release\photocraft-0.18.0-windows-x64.msi
+==> photocraft-cli --version
+photocraft-cli 0.18.0 (8a87a457a, 2026-10-31)
+
+[32;1mName                                      [0m[32;1m    Length[0m
+[32;1m----                                      [0m [32;1m   ------[0m
+photocraft-0.18.0-windows-x64.msi          106299392
+photocraft-0.18.0-windows-x64-portable.zip 127351831
+photocraft-0.18.0-windows-x64-symbols.zip    6185794
+
