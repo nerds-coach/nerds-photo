@@ -1,0 +1,145 @@
+NERDS names: 136 changes, 7 kept, 0 warnings
+
+rust  apps/photocraft-cli/build.rs:28  'PhotoCraft' -> 'NERDS Photo'
+rust  apps/photocraft-cli/build.rs:29  'PhotoCraft command-line interface' -> 'NERDS Photo command-line interface'
+rust  apps/photocraft-cli/build.rs:30  'Learning Machines LLC' -> 'NERDS Craft'
+rust  apps/photocraft-cli/src/actions.rs:111  '`{}` step {}: Photoshop\'s \\"{}\\" ({}) has no PhotoCraft equivalent yet' -> '`{}` step {}: Photoshop\'s \\"{}\\" ({}) has no NERDS Photo equivalent yet'
+rust  apps/photocraft/build.rs:24  'PhotoCraft' -> 'NERDS Photo'
+rust  apps/photocraft/build.rs:25  'PhotoCraft image editor' -> 'NERDS Photo image editor'
+rust  apps/photocraft/build.rs:26  'Learning Machines LLC' -> 'NERDS Craft'
+rust  apps/photocraft/src/app_dirs.rs:163  'another PhotoCraft is moving crash-recovery autosaves; using {}' -> 'another NERDS Photo is moving crash-recovery autosaves; using {}'
+rust  apps/photocraft/src/crash_guard.rs:14  'PhotoCraft internal error: {info}' -> 'NERDS Photo internal error: {info}'
+rust  apps/photocraft/src/main.rs:152  'PhotoCraft' -> 'NERDS Photo'
+rust  apps/photocraft/src/main.rs:201  'PhotoCraft {}, log file {}' -> 'NERDS Photo {}, log file {}'
+rust  apps/photocraft/src/main.rs:235  'running as a separate PhotoCraft: {reason}' -> 'running as a separate NERDS Photo: {reason}'
+rust  apps/photocraft/src/main.rs:243  'handed {} file(s) to the running PhotoCraft' -> 'handed {} file(s) to the running NERDS Photo'
+rust  apps/photocraft/src/main.rs:248  'starting a separate PhotoCraft: {reason}' -> 'starting a separate NERDS Photo: {reason}'
+rust  apps/photocraft/src/main.rs:347  'PhotoCraft update helper failed: {e}' -> 'NERDS Photo update helper failed: {e}'
+kept  apps/photocraft/src/main.rs:493  "PhotoCraft",
+rust  apps/photocraft/src/main.rs:738  'PhotoCraft could not start: {error}' -> 'NERDS Photo could not start: {error}'
+rust  apps/photocraft/src/screen_color.rs:297  'Allow PhotoCraft in System Settings > Privacy & Security > Screen Recording, then reopen P' -> 'Allow NERDS Photo in System Settings > Privacy & Security > Screen Recording, then reopen '
+kept  apps/photocraft/src/services.rs:43  ("PhotoCraft", &["pcraft"]),
+kept  apps/photocraft/src/services.rs:91  ("PhotoCraft", &["pcraft"]),
+rust  apps/photocraft/src/single_instance.rs:355  "the running PhotoCraft didn't take the files ({last})" -> "the running NERDS Photo didn't take the files ({last})"
+rust  apps/photocraft/src/startup_report.rs:41  'PhotoCraft could not start.\\n\\n{error}\\n\\nRenderer: {renderer}' -> 'NERDS Photo could not start.\\n\\n{error}\\n\\nRenderer: {renderer}'
+rust  apps/photocraft/src/startup_report.rs:60  'PhotoCraft could not start' -> 'NERDS Photo could not start'
+rust  crates/automation/src/server/conventions.rs:12  'PhotoCraft image editor. Start with doc_new/doc_open, discover ids and parameter docs with' -> 'NERDS Photo image editor. Start with doc_new/doc_open, discover ids and parameter docs wit'
+rust  crates/automation/src/workspace.rs:106  'automation write refused: `{path}` already exists and is not an image or document file Pho' -> 'automation write refused: `{path}` already exists and is not an image or document file NER'
+rust  crates/cms/src/builtin.rs:86  'Adobe RGB (1998)-compatible (PhotoCraft)' -> 'Adobe RGB (1998)-compatible (NERDS Photo)'
+rust  crates/cms/src/builtin.rs:87  'ProPhoto RGB-compatible (ROMM primaries, PhotoCraft)' -> 'ProPhoto RGB-compatible (ROMM primaries, NERDS Photo)'
+rust  crates/cms/src/builtin.rs:88  'Linear sRGB (PhotoCraft)' -> 'Linear sRGB (NERDS Photo)'
+rust  crates/cms/src/builtin.rs:89  'ACEScg (AP1, linear, PhotoCraft)' -> 'ACEScg (AP1, linear, NERDS Photo)'
+rust  crates/cms/src/builtin.rs:90  'Rec. ITU-R BT.2020 (PhotoCraft)' -> 'Rec. ITU-R BT.2020 (NERDS Photo)'
+rust  crates/cms/src/builtin.rs:91  'Gray Gamma 2.2 (PhotoCraft)' -> 'Gray Gamma 2.2 (NERDS Photo)'
+rust  crates/cms/src/builtin.rs:92  'sGray (sRGB tone curve, PhotoCraft)' -> 'sGray (sRGB tone curve, NERDS Photo)'
+rust  crates/cms/src/builtin.rs:93  'Dot Gain 20%-compatible (gamma 1.732, PhotoCraft)' -> 'Dot Gain 20%-compatible (gamma 1.732, NERDS Photo)'
+rust  crates/cms/src/builtin.rs:94  'Lab D50 identity (PhotoCraft)' -> 'Lab D50 identity (NERDS Photo)'
+rust  crates/cms/src/builtin.rs:149  'Linear Gray (PhotoCraft)' -> 'Linear Gray (NERDS Photo)'
+rust  crates/cms/src/builtin.rs:308  '{name} {curve} (PhotoCraft)' -> '{name} {curve} (NERDS Photo)'
+rust  crates/cms/src/synth.rs:32  'PhotoCraft Coated CMYK (synthetic, 300% TAC, medium GCR)' -> 'NERDS Photo Coated CMYK (synthetic, 300% TAC, medium GCR)'
+kept  crates/codecs/src/codecs/dpx.rs:671  wr.string(CREATOR, keep(KEY_CREATOR).unwrap_or("PhotoCraft"));
+rust  crates/codecs/src/codecs/heif.rs:21  "HEIC/HEIF support isn't included in this build of PhotoCraft" -> "HEIC/HEIF support isn't included in this build of NERDS Photo"
+rust  crates/engine/src/cmd/atn_cmds.rs:72  'PhotoCraft Actions' -> 'NERDS Photo Actions'
+rust  crates/engine/src/cmd/atn_cmds.rs:94  'Photoshop step \\"{name}\\" ({event}) has no PhotoCraft equivalent yet; switch it off in the' -> 'Photoshop step \\"{name}\\" ({event}) has no NERDS Photo equivalent yet; switch it off in th'
+rust  crates/engine/src/cmd/atn_cmds.rs:104  '{"path":".atn file"?,"data":base64 bytes?,"set":name? (override the file\'s set name),"repl' -> '{"path":".atn file"?,"data":base64 bytes?,"set":name? (override the file\'s set name),"repl'
+rust  crates/engine/src/cmd/atn_cmds.rs:114  '{"path":".atn file"? (else the bytes come back as base64 `data`),"set":name? (that set\'s a' -> '{"path":".atn file"? (else the bytes come back as base64 `data`),"set":name? (that set\'s a'
+rust  crates/engine/src/cmd/atn_cmds.rs:134  '{"event":id,"name":str,"descriptor":base64?} (a step from a .atn file PhotoCraft has no co' -> '{"event":id,"name":str,"descriptor":base64?} (a step from a .atn file NERDS Photo has no c'
+rust  crates/engine/src/cmd/automate_cmds.rs:38  'PhotoCraft scripts are JSON or command lists (one command.id {json} per line), not Photosh' -> 'NERDS Photo scripts are JSON or command lists (one command.id {json} per line), not Photos'
+rust  crates/engine/src/cmd/automate_cmds.rs:378  '#!/bin/sh\n# PhotoCraft droplet: runs the action on the files given (or dropped).\nif [ -n "' -> '#!/bin/sh\n# NERDS Photo droplet: runs the action on the files given (or dropped).\nif [ -n '
+rust  crates/engine/src/cmd/automate_cmds.rs:413  '{path} is not a PhotoCraft droplet' -> '{path} is not a NERDS Photo droplet'
+rust  crates/engine/src/cmd/face_cmds.rs:17  "face detection isn't available in the browser version of PhotoCraft; use the desktop app" -> "face detection isn't available in the browser version of NERDS Photo; use the desktop app"
+rust  crates/engine/src/cmd/file_cmds/export.rs:175  'TITLE \\"{}\\"\\n# Created by PhotoCraft\\nLUT_3D_SIZE {n}\\nDOMAIN_MIN 0.0 0.0 0.0\\nDOMAIN_MAX' -> 'TITLE \\"{}\\"\\n# Created by NERDS Photo\\nLUT_3D_SIZE {n}\\nDOMAIN_MIN 0.0 0.0 0.0\\nDOMAIN_MA'
+rust  crates/engine/src/cmd/layer_menu_cmds.rs:992  '{"layer":id?,"blend":"normal|multiply|…"?,"opacity":0..100?,"fillOpacity":0..100?,"blendIf' -> '{"layer":id?,"blend":"normal|multiply|…"?,"opacity":0..100?,"fillOpacity":0..100?,"blendIf'
+rust  crates/engine/src/cmd/preset_import_cmds.rs:361  'the file holds no gradients PhotoCraft can use (noise gradients only)' -> 'the file holds no gradients NERDS Photo can use (noise gradients only)'
+rust  crates/engine/src/cmd/print_cmds.rs:1479  '%!PS-Adobe-2.0 EPSF-1.2\\n%%Creator: PhotoCraft\\n' -> '%!PS-Adobe-2.0 EPSF-1.2\\n%%Creator: NERDS Photo\\n'
+rust  crates/engine/src/cmd/smart_cmds/filters.rs:165  "this smart filter isn't implemented in PhotoCraft: it is kept as is (it can be hidden, mov" -> "this smart filter isn't implemented in NERDS Photo: it is kept as is (it can be hidden, mo"
+rust  crates/engine/src/cmd/swatch_cmds.rs:501  "{books} swatches use a colour book or colour space PhotoCraft can't show; they are kept (s" -> "{books} swatches use a colour book or colour space NERDS Photo can't show; they are kept ("
+rust  crates/engine/src/cmd/updates_cmds.rs:13  'https://github.com/storytold/photocraft/releases' -> 'https://github.com/nerds-coach/nerds-photo/releases'
+rust  crates/engine/src/preset_store.rs:293  'not a PhotoCraft tip' -> 'not a NERDS Photo tip'
+rust  crates/engine/src/shell_commands.rs:94  'PhotoCraft Website' -> 'NERDS Photo Website'
+rust  crates/engine/src/shell_commands.rs:96  'PhotoCraft on GitHub' -> 'NERDS Photo on GitHub'
+rust  crates/engine/src/shell_commands.rs:99  'About PhotoCraft' -> 'About NERDS Photo'
+rust  crates/engine/src/shortcut_sets.rs:21  'PhotoCraft Defaults' -> 'NERDS Photo Defaults'
+rust  crates/io/src/abr_map.rs:125  'settings without a PhotoCraft equivalent were ignored: {}' -> 'settings without a NERDS Photo equivalent were ignored: {}'
+kept  crates/io/src/camera_raw_xmp.rs:278  const TOOLKIT: &str = "PhotoCraft";
+rust  crates/io/src/camera_raw_xmp.rs:301  '<x:xmpmeta xmlns:x=\\"adobe:ns:meta/\\" x:xmptk=\\"PhotoCraft\\">\\n <rdf:RDF xmlns:rdf=\\"http:' -> '<x:xmpmeta xmlns:x=\\"adobe:ns:meta/\\" x:xmptk=\\"NERDS Photo\\">\\n <rdf:RDF xmlns:rdf=\\"http'
+rust  crates/io/src/lib.rs:587  "XCF is GIMP's own format and PhotoCraft only opens it; save as .pcraft to keep the layers," -> "XCF is GIMP's own format and NERDS Photo only opens it; save as .pcraft to keep the layers"
+rust  crates/io/src/psd_export.rs:933  'the linked file {file_name} is not an image PhotoCraft can open: {e}' -> 'the linked file {file_name} is not an image NERDS Photo can open: {e}'
+rust  crates/io/src/xcf.rs:844  '{} layer(s) use a mode GIMP clips to the layers beneath; where those are transparent GIMP ' -> '{} layer(s) use a mode GIMP clips to the layers beneath; where those are transparent GIMP '
+rust  crates/io/src/xcf.rs:852  'GIMP composites this image in linear light; PhotoCraft composites in gamma-encoded RGB, so' -> 'GIMP composites this image in linear light; NERDS Photo composites in gamma-encoded RGB, s'
+rust  crates/raw/src/jxl.rs:22  "JPEG XL-compressed DNG (DNG 1.7) can't be opened in the browser version of PhotoCraft; ope" -> "JPEG XL-compressed DNG (DNG 1.7) can't be opened in the browser version of NERDS Photo; op"
+rust  crates/ui-egui/src/canvas/start_screen.rs:36  'PhotoCraft' -> 'NERDS Photo'
+rust  crates/ui-egui/src/canvas/tool_cursor.rs:51  'PhotoCraft tool cursor' -> 'NERDS Photo tool cursor'
+rust  crates/ui-egui/src/dialogs.rs:773  'PhotoCraft — an open-source, native image editor written in Rust.' -> 'NERDS Photo — an open-source, native image editor written in Rust.'
+rust  crates/ui-egui/src/dialogs.rs:813  'About PhotoCraft' -> 'About NERDS Photo'
+rust  crates/ui-egui/src/dialogs/file_ui/print.rs:33  'PhotoCraft Print Settings' -> 'NERDS Photo Print Settings'
+rust  crates/ui-egui/src/dialogs/file_ui/print.rs:505  'PhotoCraft Manages Colors' -> 'NERDS Photo Manages Colors'
+rust  crates/ui-egui/src/dialogs/new_doc_ui.rs:20  'Default PhotoCraft Size' -> 'Default NERDS Photo Size'
+kept  crates/ui-egui/src/dialogs/rasterize_prompt.rs:120  f.insert("__label".into(), json!("PhotoCraft"));
+kept  crates/ui-egui/src/dialogs/rasterize_prompt.rs:164  f.insert("__label".into(), json!("PhotoCraft"));
+rust  crates/ui-egui/src/dialogs/screen_picker.rs:265  'PhotoCraft — Screen Color Picker' -> 'NERDS Photo — Screen Color Picker'
+rust  crates/ui-egui/src/gpu_status.rs:178  'PhotoCraft {}' -> 'NERDS Photo {}'
+rust  crates/ui-egui/src/gpu_status.rs:252  'Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains act' -> 'Save your work and restart NERDS Photo to retry GPU acceleration. CPU rendering remains ac'
+rust  crates/ui-egui/src/gpu_status.rs:274  'PhotoCraft is using the CPU image compositor. The window may still use your graphics adapt' -> 'NERDS Photo is using the CPU image compositor. The window may still use your graphics adap'
+rust  crates/ui-egui/src/input/single_line_drag.rs:27  'PhotoCraft single-line text drag' -> 'NERDS Photo single-line text drag'
+rust  crates/ui-egui/src/links.rs:48  'PhotoCraft website' -> 'NERDS Photo website'
+rust  crates/ui-egui/src/menus/native_menu.rs:31  'PhotoCraft' -> 'NERDS Photo'
+rust  crates/ui-egui/src/menus/native_menu.rs:728  'menu: {} is {} on macOS and {} in PhotoCraft; {}' -> 'menu: {} is {} on macOS and {} in NERDS Photo; {}'
+rust  crates/ui-egui/src/notices.rs:85  'To drop files, start PhotoCraft under XWayland: `{command}`' -> 'To drop files, start NERDS Photo under XWayland: `{command}`'
+rust  crates/ui-egui/src/notices.rs:87  'Or set Preferences › Performance › Linux display server to X11: PhotoCraft then always sta' -> 'Or set Preferences › Performance › Linux display server to X11: NERDS Photo then always st'
+rust  crates/ui-egui/src/notices.rs:100  "Nothing to paste: PhotoCraft can't read the system clipboard here" -> "Nothing to paste: NERDS Photo can't read the system clipboard here"
+rust  crates/ui-egui/src/notices.rs:107  "PhotoCraft can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox" -> "NERDS Photo can't reach the system clipboard in this session. On Wayland, a Flatpak sandbo"
+rust  crates/ui-egui/src/notices.rs:110  'To paste from other apps, start PhotoCraft under XWayland: `{command}`' -> 'To paste from other apps, start NERDS Photo under XWayland: `{command}`'
+rust  crates/ui-egui/src/panels/actions.rs:386  '{n} step has no PhotoCraft equivalent yet' -> '{n} step has no NERDS Photo equivalent yet'
+rust  crates/ui-egui/src/panels/actions.rs:387  '{n} steps have no PhotoCraft equivalent yet' -> '{n} steps have no NERDS Photo equivalent yet'
+rust  crates/ui-egui/src/panels/title_bar.rs:50  'PhotoCraft' -> 'NERDS Photo'
+rust  crates/ui-egui/src/panels/title_bar.rs:51  'PhotoCraft' -> 'NERDS Photo'
+rust  crates/ui-egui/src/panels/title_bar.rs:170  '{}PhotoCraft' -> '{}NERDS Photo'
+rust  crates/ui-egui/src/panels/title_bar.rs:172  '{}{} \\u{2014} PhotoCraft' -> '{}{} \\u{2014} NERDS Photo'
+rust  crates/ui-egui/src/panels/title_bar.rs:172  'PhotoCraft' -> 'NERDS Photo'
+rust  crates/ui-egui/src/prefs/kys_import.rs:89  '{n} commands are not in PhotoCraft.' -> '{n} commands are not in NERDS Photo.'
+rust  crates/ui-egui/src/prefs/kys_import.rs:219  'PhotoCraft found your keyboard shortcut set {set} from another image editor on this comput' -> 'NERDS Photo found your keyboard shortcut set {set} from another image editor on this compu'
+rust  crates/ui-egui/src/prefs/prefs_ui/fields.rs:235  "These settings aren't available in PhotoCraft yet." -> "These settings aren't available in NERDS Photo yet."
+rust  crates/ui-egui/src/prefs/prefs_ui/save.rs:104  'PhotoCraft keeps retrying; until a save succeeds, preference changes are lost when it clos' -> 'NERDS Photo keeps retrying; until a save succeeds, preference changes are lost when it clo'
+rust  crates/ui-egui/src/prefs/prefs_ui/shortcuts.rs:451  'All shortcuts reset to PhotoCraft defaults.' -> 'All shortcuts reset to NERDS Photo defaults.'
+rust  crates/ui-egui/src/prefs/prefs_ui/shortcuts.rs:583  'PhotoCraft Defaults' -> 'NERDS Photo Defaults'
+rust  crates/ui-egui/src/prefs/prefs_ui/startup.rs:107  "The preferences file held values PhotoCraft can't read for {paths}. Those settings are bac" -> "The preferences file held values NERDS Photo can't read for {paths}. Those settings are ba"
+rust  crates/ui-egui/src/updates_ui.rs:33  'PhotoCraft {}' -> 'NERDS Photo {}'
+rust  crates/ui-egui/src/updates_ui.rs:114  'PhotoCraft Updates' -> 'NERDS Photo Updates'
+rust  crates/ui-egui/src/updates_ui.rs:132  'PhotoCraft {version} is available.' -> 'NERDS Photo {version} is available.'
+rust  crates/ui-egui/src/updates_ui.rs:148  'PhotoCraft is up to date.' -> 'NERDS Photo is up to date.'
+rust  crates/ui-egui/src/widgets/text_field_menu.rs:116  'PhotoCraft text field menu' -> 'NERDS Photo text field menu'
+i18n  crates/ui-egui/src/i18n/ar.tsv  (24 lines)
+i18n  crates/ui-egui/src/i18n/cs.tsv  (27 lines)
+i18n  crates/ui-egui/src/i18n/da.tsv  (28 lines)
+i18n  crates/ui-egui/src/i18n/de.tsv  (24 lines)
+i18n  crates/ui-egui/src/i18n/el.tsv  (26 lines)
+i18n  crates/ui-egui/src/i18n/es.tsv  (28 lines)
+i18n  crates/ui-egui/src/i18n/fi.tsv  (28 lines)
+i18n  crates/ui-egui/src/i18n/fr.tsv  (28 lines)
+i18n  crates/ui-egui/src/i18n/hu.tsv  (28 lines)
+i18n  crates/ui-egui/src/i18n/id.tsv  (24 lines)
+i18n  crates/ui-egui/src/i18n/it.tsv  (28 lines)
+i18n  crates/ui-egui/src/i18n/ja.tsv  (25 lines)
+i18n  crates/ui-egui/src/i18n/ko.tsv  (24 lines)
+i18n  crates/ui-egui/src/i18n/nb.tsv  (28 lines)
+i18n  crates/ui-egui/src/i18n/nl.tsv  (26 lines)
+i18n  crates/ui-egui/src/i18n/pl.tsv  (25 lines)
+i18n  crates/ui-egui/src/i18n/pt-br.tsv  (28 lines)
+i18n  crates/ui-egui/src/i18n/ru.tsv  (28 lines)
+i18n  crates/ui-egui/src/i18n/sr.tsv  (28 lines)
+i18n  crates/ui-egui/src/i18n/sv.tsv  (28 lines)
+i18n  crates/ui-egui/src/i18n/tr.tsv  (26 lines)
+i18n  crates/ui-egui/src/i18n/uk.tsv  (24 lines)
+i18n  crates/ui-egui/src/i18n/vi.tsv  (25 lines)
+i18n  crates/ui-egui/src/i18n/zh-hans.tsv  (24 lines)
+i18n  crates/ui-egui/src/i18n/zh-hant.tsv  (24 lines)
+win   packaging/windows/install-policy.json  (1 lines)
+win   packaging/windows/package.ps1  (1 lines)
+win   packaging/windows/photocraft.en-us.wxl  (1 lines)
+win   packaging/windows/photocraft.wxs  (11 lines)
+win   packaging/windows/portable.txt  (4 lines)
+win   packaging/windows/symbols.txt  (4 lines)
+mac   packaging/macos/Info.plist.in  (4 lines)
+mac   packaging/macos/dmg/generate.py  (2 lines)
+mac   packaging/macos/package.sh  (5 lines)
