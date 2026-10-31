@@ -1,0 +1,10 @@
+total 576004
+-rw-r--r-- 1 runner runner       529 Oct 31 06:29 SHA256SUMS.txt
+-rw-r--r-- 1 runner runner 243339767 Oct 31 06:29 photocraft-0.18.0-macos-universal.dmg
+-rw-r--r-- 1 runner runner 127351831 Oct 31 06:29 photocraft-0.18.0-windows-x64-portable.zip
+-rw-r--r-- 1 runner runner   6185794 Oct 31 06:29 photocraft-0.18.0-windows-x64-symbols.zip
+-rw-r--r-- 1 runner runner 106299392 Oct 31 06:29 photocraft-0.18.0-windows-x64.msi
+-rw-r--r-- 1 runner runner 106637588 Oct 31 06:29 photocraft-cli-0.18.0-macos-universal.zip
+25936 /home/runner/work/_temp/notes.md
+https://github.com/nerds-coach/nerds-photo/releases/tag/untagged-a68809add0b1690bd55a
+https://github.com/nerds-coach/nerds-photo/releases/tag/v0.18.0
