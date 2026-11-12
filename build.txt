@@ -1,0 +1,111 @@
+::warning::macOS: ad-hoc signing (no MACOS_SIGN_IDENTITY); artifacts are not notarized
+==> PhotoCraft 0.23.1 for macOS (universal), identity: -, notarize: 0
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[92m    Updating[0m crates.io index
+[1m[92m    Updating[0m git repository `https://github.com/storytold/winprint.rs`
+[1m[33mwarning[0m: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[33mwarning[0m: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[33mwarning[0m: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[96mhelp[0m: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+[1m[92m Downloading[0m crates ...
+[1m[92m  Downloaded[0m hmac v0.12.1
+[1m[92m   Compiling[0m rustversion v1.0.23
+[1m[92m   Compiling[0m multiversion_no_op v1.0.0
+[1m[92m   Compiling[0m photocraft-cms v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/cms)
+[1m[92m   Compiling[0m encoding_rs v0.8.42
+[1m[92m   Compiling[0m photocraft-color v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/color)
+[1m[92m   Compiling[0m photocraft-text v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/text)
+[1m[92m   Compiling[0m photocraft-geom v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/geom)
+[1m[92m   Compiling[0m photocraft-raster v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/raster)
+[1m[92m   Compiling[0m skrifa v0.44.0
+[1m[92m   Compiling[0m photocraft-doc v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/doc)
+[1m[92m   Compiling[0m hayro-jbig2 v0.3.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m hayro-syntax v0.7.2 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m simdutf8 v0.1.5
+[1m[92m   Compiling[0m core_detect v1.0.0
+[1m[92m   Compiling[0m hayro-interpret v0.7.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m epaint v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m craft-heif v0.1.0 (https://github.com/storytold/craft-libs?rev=081078bb1b44aeedfa5bef3d4f13d978dc77510a#081078bb)
+[1m[92m   Compiling[0m photocraft-vector v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/vector)
+[1m[92m   Compiling[0m craft-jpeg v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m photocraft-codecs v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/codecs)
+[1m[92m   Compiling[0m egui v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m hayro v0.7.1 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m parley v0.11.1
+[1m[92m   Compiling[0m photocraft-compose v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/compose)
+[1m[92m   Compiling[0m digest v0.10.7
+[1m[92m   Compiling[0m photocraft-algo v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/algo)
+[1m[92m   Compiling[0m photocraft-psd v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/psd)
+[1m[92m   Compiling[0m craft-pcraft-format v0.1.0 (https://github.com/storytold/craft-libs?rev=b8f7d93b00dfb8f172938f3d2d796ae62dcfe123#b8f7d93b)
+[1m[92m   Compiling[0m photocraft-format v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/format)
+[1m[92m   Compiling[0m photocraft-raw v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/raw)
+[1m[92m   Compiling[0m craft-pdf v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m photocraft-affinity v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/affinity)
+[1m[92m   Compiling[0m photocraft-paint v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/paint)
+[1m[92m   Compiling[0m craft-docpath v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m craft-print v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m photocraft-ui-egui v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/ui-egui)
+[1m[92m   Compiling[0m photocraft-io v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/io)
+[1m[92m   Compiling[0m sha2 v0.10.9
+[1m[92m   Compiling[0m photocraft-plugins v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/plugins)
+[1m[92m   Compiling[0m photocraft-ops v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/ops)
+[1m[92m   Compiling[0m photocraft-cli v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/apps/photocraft-cli)
+[1m[92m   Compiling[0m photocraft-ipp v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/ipp)
+[1m[92m   Compiling[0m photocraft-engine v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/engine)
+[1m[92m   Compiling[0m photocraft-gpu v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/gpu)
+[1m[92m   Compiling[0m hmac v0.12.1
+[1m[92m   Compiling[0m photocraft v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/apps/photocraft)
+[1m[92m   Compiling[0m craft-i18n v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m egui-wgpu v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m egui-winit v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m photocraft-automation v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/automation)
+[1m[92m   Compiling[0m craft-fonts-build v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m craft-ui v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m egui_extras v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m eframe v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m craft-update v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m photocraft-tablet v0.23.1 (/Users/runner/work/nerds-photo/nerds-photo/crates/tablet)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 42m 26s
+[1m[33mwarning[0m: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+[1m[92mnote[0m: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+Architectures in the fat file: /Users/runner/work/nerds-photo/nerds-photo/target/macos-package/bin/photocraft are: x86_64 arm64 
+Architectures in the fat file: /Users/runner/work/nerds-photo/nerds-photo/target/macos-package/bin/photocraft-cli are: x86_64 arm64 
+==> assembling /Users/runner/work/nerds-photo/nerds-photo/target/macos-package/NERDS Photo.app
+/Users/runner/work/nerds-photo/nerds-photo/target/macos-package/NERDS Photo.app/Contents/Info.plist: OK
+/Users/runner/work/nerds-photo/nerds-photo/target/macos-package/NERDS Photo.app/Contents/MacOS/photocraft-cli: replacing existing signature
+/Users/runner/work/nerds-photo/nerds-photo/target/macos-package/NERDS Photo.app/Contents/MacOS/PhotoCraft: replacing existing signature
+/Users/runner/work/nerds-photo/nerds-photo/target/macos-package/NERDS Photo.app: replacing existing signature
+--prepared:/Users/runner/work/nerds-photo/nerds-photo/target/macos-package/NERDS Photo.app/Contents/MacOS/photocraft-cli
+--validated:/Users/runner/work/nerds-photo/nerds-photo/target/macos-package/NERDS Photo.app/Contents/MacOS/photocraft-cli
+/Users/runner/work/nerds-photo/nerds-photo/target/macos-package/NERDS Photo.app: valid on disk
+/Users/runner/work/nerds-photo/nerds-photo/target/macos-package/NERDS Photo.app: satisfies its Designated Requirement
+==> building /Users/runner/work/nerds-photo/nerds-photo/dist/release/photocraft-0.23.1-macos-universal.dmg
+Creating hybrid image...
+
+Preparing imaging engine…
+Reading Driver Descriptor Map (DDM : 0)…
+   (CRC32 $326EAA56: Driver Descriptor Map (DDM : 0))
+Reading Apple (Apple_partition_map : 1)…
+   (CRC32 $FD9D04D9: Apple (Apple_partition_map : 1))
+Reading DiscRecording 9.0.3d5 (Apple_HFS : 2)…
+   (CRC32 $8DACF9CA: DiscRecording 9.0.3d5 (Apple_HFS : 2))
+Adding resources…
+Elapsed Time: 18.180s
+File size: 272987443 bytes, Checksum: CRC32 $BACC83CF
+Sectors processed: 1050276, 1050273 compressed
+Speed: 28.2MB/s
+Savings: 49.2%
+created: /Users/runner/work/nerds-photo/nerds-photo/dist/release/photocraft-0.23.1-macos-universal.dmg
+/Users/runner/work/nerds-photo/nerds-photo/dist/release/photocraft-0.23.1-macos-universal.dmg: valid on disk
+/Users/runner/work/nerds-photo/nerds-photo/dist/release/photocraft-0.23.1-macos-universal.dmg: satisfies its Designated Requirement
+==> building /Users/runner/work/nerds-photo/nerds-photo/dist/release/photocraft-cli-0.23.1-macos-universal.zip
+/Users/runner/work/nerds-photo/nerds-photo/target/macos-package/photocraft-cli-0.23.1-macos-universal/photocraft-cli: replacing existing signature
+/Users/runner/work/nerds-photo/nerds-photo/target/macos-package/photocraft-cli-0.23.1-macos-universal/photocraft-cli: valid on disk
+/Users/runner/work/nerds-photo/nerds-photo/target/macos-package/photocraft-cli-0.23.1-macos-universal/photocraft-cli: satisfies its Designated Requirement
+photocraft-cli 0.23.1 (45066c482, 2026-11-12)
+==> done (check the artifacts as shipped with packaging/macos/verify.sh --arch universal)
+-rw-r--r--@ 1 runner  staff   260M Nov 12 07:57 /Users/runner/work/nerds-photo/nerds-photo/dist/release/photocraft-0.23.1-macos-universal.dmg
+-rw-r--r--  1 runner  staff   115M Nov 12 07:57 /Users/runner/work/nerds-photo/nerds-photo/dist/release/photocraft-cli-0.23.1-macos-universal.zip
