@@ -1,0 +1,3 @@
+run: https://github.com/nerds-coach/nerds-photo/actions/runs/44347847194
+commit: cece52f2b077c5518e5fc7ae35951534f0d6289b
+job: windows
